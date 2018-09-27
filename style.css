@@ -1,0 +1,11 @@
+.newDiv {
+    display: flex;
+}
+
+span {
+    display: flex;
+    border: 2px solid white;
+    width: 75px;
+    height: 75px;
+    background-image: linear-gradient(aquamarine, yellow);
+}
