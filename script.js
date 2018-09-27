@@ -1,8 +1,8 @@
 class Grid {
     constructor(options) {
         this.gridArray = []
-        this.numberOfRows = options.numberOfRows || 5
-        this.numberOfColumns = options.numberOfColumns || 5
+        this.numberOfRows = options.numberOfRows || 6
+        this.numberOfColumns = options.numberOfColumns || 6
         this.gridContainer = document.getElementById("main")
         this.elementId = options.elementId
         this.newRows()
@@ -40,7 +40,7 @@ class Cell {
 }
 
 const grid = new Grid({
-    numberOfRows: 5,
-    numberOfColumns: 5,
+    numberOfRows: 6,
+    numberOfColumns: 6,
     parentContainerId: "main",
 })
